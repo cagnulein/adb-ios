@@ -10,7 +10,7 @@
 #import "adb/AdbClient.h"
 
 
-#define IP  "10.0.1.223"
+#define IP  "192.168.0.46:43832"
 
 @interface ViewController ()
 @property(strong) AdbClient *adb;
@@ -86,7 +86,7 @@
 
 -(IBAction)ps:(id)sender
 {
-    [_adb shell:@"pm list packages" didResponse:^(BOOL succ, NSString *result) {
+    [_adb shell:@"ls" didResponse:^(BOOL succ, NSString *result) {
         
         [self.textview performSelectorOnMainThread:@selector(setText:) withObject:result waitUntilDone:YES];
     }];

@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C75D33E1BBD7F3E001167B1 /* adb_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3281BBD7F3E001167B1 /* adb_client.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D33F1BBD7F3E001167B1 /* adb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32A1BBD7F3E001167B1 /* adb.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3401BBD7F3E001167B1 /* AdbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32D1BBD7F3E001167B1 /* AdbClient.m */; settings = {ASSET_TAGS = (); }; };
-		7C75D3411BBD7F3E001167B1 /* commandline.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32E1BBD7F3E001167B1 /* commandline.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3421BBD7F3E001167B1 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32F1BBD7F3E001167B1 /* console.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3431BBD7F3E001167B1 /* fdevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3301BBD7F3E001167B1 /* fdevent.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3441BBD7F3E001167B1 /* file_sync_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3321BBD7F3E001167B1 /* file_sync_client.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3451BBD7F3E001167B1 /* file_sync_service.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3331BBD7F3E001167B1 /* file_sync_service.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3461BBD7F3E001167B1 /* services.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3361BBD7F3E001167B1 /* services.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3471BBD7F3E001167B1 /* sockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3371BBD7F3E001167B1 /* sockets.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3481BBD7F3E001167B1 /* transport_local.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3391BBD7F3E001167B1 /* transport_local.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3491BBD7F3E001167B1 /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D33A1BBD7F3E001167B1 /* transport.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3501BBD7FF5001167B1 /* centraldir.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D34D1BBD7FF5001167B1 /* centraldir.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3511BBD7FF5001167B1 /* zipfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D34F1BBD7FF5001167B1 /* zipfile.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3581BBD8010001167B1 /* socket_inaddr_any_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3521BBD8010001167B1 /* socket_inaddr_any_server.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D3591BBD8010001167B1 /* socket_local_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3531BBD8010001167B1 /* socket_local_client.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D35A1BBD8010001167B1 /* socket_local_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3541BBD8010001167B1 /* socket_local_server.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D35B1BBD8010001167B1 /* socket_loopback_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3551BBD8010001167B1 /* socket_loopback_client.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D35C1BBD8010001167B1 /* socket_loopback_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3561BBD8010001167B1 /* socket_loopback_server.c */; settings = {ASSET_TAGS = (); }; };
-		7C75D35D1BBD8010001167B1 /* socket_network_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3571BBD8010001167B1 /* socket_network_client.c */; settings = {ASSET_TAGS = (); }; };
-		7C8788641BDA6484000858D6 /* adb_auth_host.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C8788621BDA6484000858D6 /* adb_auth_host.c */; settings = {ASSET_TAGS = (); }; };
-		7C8788671BDA6F8B000858D6 /* load_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C8788661BDA6F8B000858D6 /* load_file.c */; settings = {ASSET_TAGS = (); }; };
-		7C87886C1BDA7CA3000858D6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C87886A1BDA7CA3000858D6 /* libcrypto.a */; settings = {ASSET_TAGS = (); }; };
+		7C75D33E1BBD7F3E001167B1 /* adb_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3281BBD7F3E001167B1 /* adb_client.c */; };
+		7C75D33F1BBD7F3E001167B1 /* adb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32A1BBD7F3E001167B1 /* adb.c */; };
+		7C75D3401BBD7F3E001167B1 /* AdbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32D1BBD7F3E001167B1 /* AdbClient.m */; };
+		7C75D3411BBD7F3E001167B1 /* commandline.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32E1BBD7F3E001167B1 /* commandline.c */; };
+		7C75D3421BBD7F3E001167B1 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D32F1BBD7F3E001167B1 /* console.c */; };
+		7C75D3431BBD7F3E001167B1 /* fdevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3301BBD7F3E001167B1 /* fdevent.c */; };
+		7C75D3441BBD7F3E001167B1 /* file_sync_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3321BBD7F3E001167B1 /* file_sync_client.c */; };
+		7C75D3451BBD7F3E001167B1 /* file_sync_service.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3331BBD7F3E001167B1 /* file_sync_service.c */; };
+		7C75D3461BBD7F3E001167B1 /* services.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3361BBD7F3E001167B1 /* services.c */; };
+		7C75D3471BBD7F3E001167B1 /* sockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3371BBD7F3E001167B1 /* sockets.c */; };
+		7C75D3481BBD7F3E001167B1 /* transport_local.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3391BBD7F3E001167B1 /* transport_local.c */; };
+		7C75D3491BBD7F3E001167B1 /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D33A1BBD7F3E001167B1 /* transport.c */; };
+		7C75D3501BBD7FF5001167B1 /* centraldir.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D34D1BBD7FF5001167B1 /* centraldir.c */; };
+		7C75D3511BBD7FF5001167B1 /* zipfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D34F1BBD7FF5001167B1 /* zipfile.c */; };
+		7C75D3581BBD8010001167B1 /* socket_inaddr_any_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3521BBD8010001167B1 /* socket_inaddr_any_server.c */; };
+		7C75D3591BBD8010001167B1 /* socket_local_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3531BBD8010001167B1 /* socket_local_client.c */; };
+		7C75D35A1BBD8010001167B1 /* socket_local_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3541BBD8010001167B1 /* socket_local_server.c */; };
+		7C75D35B1BBD8010001167B1 /* socket_loopback_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3551BBD8010001167B1 /* socket_loopback_client.c */; };
+		7C75D35C1BBD8010001167B1 /* socket_loopback_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3561BBD8010001167B1 /* socket_loopback_server.c */; };
+		7C75D35D1BBD8010001167B1 /* socket_network_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C75D3571BBD8010001167B1 /* socket_network_client.c */; };
+		7C8788641BDA6484000858D6 /* adb_auth_host.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C8788621BDA6484000858D6 /* adb_auth_host.c */; };
+		7C8788671BDA6F8B000858D6 /* load_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C8788661BDA6F8B000858D6 /* load_file.c */; };
+		7C87886C1BDA7CA3000858D6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C87886A1BDA7CA3000858D6 /* libcrypto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,6 +206,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7C75D3131BBD7D43001167B1;
@@ -337,10 +338,12 @@
 		7C75D3261BBD7D43001167B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -358,6 +361,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
