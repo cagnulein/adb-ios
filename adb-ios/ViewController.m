@@ -98,6 +98,7 @@
 {
     [_adb shell:@"logcat -b all -d " didResponse:^(BOOL succ, NSString *result) {
      
+        [self.textview performSelectorOnMainThread:@selector(setText:) withObject:result waitUntilDone:YES];
         @autoreleasepool {
                 NSDate *currentDate = [NSDate date];
                 NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
