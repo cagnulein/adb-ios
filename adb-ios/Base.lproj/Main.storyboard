@@ -68,7 +68,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7O-ia-bZI">
                                 <rect key="frame" x="90" y="231" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="list packages"/>
+                                <state key="normal" title="logcat"/>
                                 <connections>
                                     <action selector="ps:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MQn-f2-b4U"/>
                                 </connections>
@@ -76,7 +76,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QY2-iQ-UzH">
                                 <rect key="frame" x="106" y="307" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="list devices"/>
+                                <state key="normal" title="swipe"/>
                                 <connections>
                                     <action selector="list:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qd3-5I-Mda"/>
                                 </connections>

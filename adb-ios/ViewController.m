@@ -10,7 +10,7 @@
 #import "adb/AdbClient.h"
 
 
-#define IP  "192.168.0.46:43832"
+#define IP  "localhost:5555"
 
 @interface ViewController ()
 @property(strong) AdbClient *adb;
@@ -35,8 +35,18 @@
 
 -(void) list:(id)sender
 {
-    [_adb devices:^(BOOL succ, NSString *result1) {
-        [self.textview performSelectorOnMainThread:@selector(setText:) withObject:result1 waitUntilDone:YES];
+    
+    [_adb shell:@"input swipe 100 200 300 400 200" didResponse:^(BOOL succ, NSString *result) {
+        @autoreleasepool {
+                NSDate *currentDate = [NSDate date];
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+
+                // Customize the date format
+                [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+
+                NSString *dateString = [formatter stringFromDate:currentDate];
+                NSLog(@"Current Date and Time: %@ swipe!", dateString);
+            }
     }];
 }
 
@@ -86,9 +96,18 @@
 
 -(IBAction)ps:(id)sender
 {
-    [_adb shell:@"ls" didResponse:^(BOOL succ, NSString *result) {
-        
-        [self.textview performSelectorOnMainThread:@selector(setText:) withObject:result waitUntilDone:YES];
+    [_adb shell:@"logcat" didResponse:^(BOOL succ, NSString *result) {
+     
+        @autoreleasepool {
+                NSDate *currentDate = [NSDate date];
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+
+                // Customize the date format
+                [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+
+                NSString *dateString = [formatter stringFromDate:currentDate];
+                NSLog(@"Current Date and Time: %@ %@", dateString, result);
+            }
     }];
 }
 
