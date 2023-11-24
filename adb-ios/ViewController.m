@@ -96,7 +96,7 @@
 
 -(IBAction)ps:(id)sender
 {
-    [_adb shell:@"logcat" didResponse:^(BOOL succ, NSString *result) {
+    [_adb shell:@"logcat -b all -d " didResponse:^(BOOL succ, NSString *result) {
      
         @autoreleasepool {
                 NSDate *currentDate = [NSDate date];
